@@ -1,4 +1,4 @@
-let i = 10;
+let i = 5;
 while(i>=0) {
     console.log(i);
     i-=1;
