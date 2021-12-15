@@ -1,3 +1,6 @@
 const endTime = Date.now() + 120000;
-endTime = Date.now();
-
+let count = 0;
+while(Date.now() <= endTime) {
+  console.log(count);
+  count += 1;
+}
