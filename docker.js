@@ -1,7 +1,6 @@
-let i = 5;
-while(i>=0) {
-    console.log(i);
-    throw new Error('Error thrown');
-    i-=1;
+const endTime = Date.now() + 120000;
+let count = 0;
+while(Date.now() <= endTime) {
+  console.log(count);
 }
 
